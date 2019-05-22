@@ -1,0 +1,14 @@
+{
+    "opts": {
+        "template": "./node_modules/docdash",
+        "encoding": "utf8",
+        "destination": "./dist/docs",
+        "recurse": false,
+        "verbose": true,
+        "tutorials": "./src/tutorials"
+    },
+    "docdash": {
+        "sort": false
+    },
+    "plugins": ["plugins/markdown"]
+}

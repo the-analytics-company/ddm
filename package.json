@@ -1,0 +1,20 @@
+{
+  "name": "DDM",
+  "version": "1.0.0",
+  "homepage": "https://github.com/the-analytics-company/ddm#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/the-analytics-company/ddm.git"
+  },
+  "devDependencies": {
+    "del": "^4.1.1",
+    "docdash": "^1.1.1",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-jsdoc3": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "uglify-save-license": "^0.4.1",
+    "gulp-rename": "^1.4.0"
+  }
+}
