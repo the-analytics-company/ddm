@@ -16,5 +16,8 @@
     "gulp-uglify": "^3.0.2",
     "uglify-save-license": "^0.4.1",
     "gulp-rename": "^1.4.0"
+  },
+  "resolutions": {
+    "natives": "1.1.3"
   }
 }

@@ -27,7 +27,7 @@
 
 <nav >
     
-    <h2><a href="index.html">Home</a></h2><h3>Tutorials</h3><ul><li><a href="tutorial-Global Click Handling.html">Global Click Handling</a></li><li><a href="tutorial-Mini DDM prior to loading DDM.html">Mini DDM prior to loading DDM</a></li></ul><h3>Global</h3><ul><li><a href="global.html#get">get</a></li><li><a href="global.html#set">set</a></li><li><a href="global.html#erase">erase</a></li><li><a href="global.html#push">push</a></li><li><a href="global.html#has">has</a></li><li><a href="global.html#empty">empty</a></li><li><a href="global.html#change">change</a></li><li><a href="global.html#trigger">trigger</a></li><li><a href="global.html#isTriggered">isTriggered</a></li><li><a href="global.html#listen">listen</a></li><li><a href="global.html#unlisten">unlisten</a></li><li><a href="global.html#persist">persist</a></li><li><a href="global.html#unpersist">unpersist</a></li><li><a href="global.html#setCookie">setCookie</a></li><li><a href="global.html#getCookie">getCookie</a></li><li><a href="global.html#removeCookie">removeCookie</a></li><li><a href="global.html#cookieExists">cookieExists</a></li><li><a href="global.html#getUrlParam">getUrlParam</a></li><li><a href="global.html#getRefParam">getRefParam</a></li><li><a href="global.html#isObject">isObject</a></li><li><a href="global.html#isArray">isArray</a></li><li><a href="global.html#isInteger">isInteger</a></li><li><a href="global.html#isString">isString</a></li><li><a href="global.html#cloneObject">cloneObject</a></li><li><a href="global.html#mergeObjects">mergeObjects</a></li></ul>
+    <h2><a href="index.html">Home</a></h2><h3>Tutorials</h3><ul><li><a href="tutorial-Global Click Handling.html">Global Click Handling</a></li><li><a href="tutorial-Mini DDM prior to loading DDM.html">Mini DDM prior to loading DDM</a></li></ul><h3>Global</h3><ul><li><a href="global.html#get">get</a></li><li><a href="global.html#set">set</a></li><li><a href="global.html#erase">erase</a></li><li><a href="global.html#push">push</a></li><li><a href="global.html#has">has</a></li><li><a href="global.html#empty">empty</a></li><li><a href="global.html#change">change</a></li><li><a href="global.html#trigger">trigger</a></li><li><a href="global.html#isTriggered">isTriggered</a></li><li><a href="global.html#listen">listen</a></li><li><a href="global.html#unlisten">unlisten</a></li><li><a href="global.html#persist">persist</a></li><li><a href="global.html#unpersist">unpersist</a></li><li><a href="global.html#setCookie">setCookie</a></li><li><a href="global.html#getCookie">getCookie</a></li><li><a href="global.html#removeCookie">removeCookie</a></li><li><a href="global.html#cookieExists">cookieExists</a></li><li><a href="global.html#getUrlParam">getUrlParam</a></li><li><a href="global.html#getRefParam">getRefParam</a></li><li><a href="global.html#isObject">isObject</a></li><li><a href="global.html#isArray">isArray</a></li><li><a href="global.html#isInteger">isInteger</a></li><li><a href="global.html#isString">isString</a></li><li><a href="global.html#isEmptyObject">isEmptyObject</a></li><li><a href="global.html#cloneObject">cloneObject</a></li><li><a href="global.html#mergeObjects">mergeObjects</a></li></ul>
 </nav>
 
 <div id="main">
@@ -4439,7 +4439,7 @@ The path of the cookie is defaulted to &quot;/&quot;.</p>
 
     
 
-    <h4 class="name" id="cloneObject"><span class="type-signature"></span>cloneObject<span class="signature">(obj)</span><span class="type-signature"></span></h4>
+    <h4 class="name" id="isEmptyObject"><span class="type-signature"></span>isEmptyObject<span class="signature">(obj)</span><span class="type-signature"> &rarr; {Boolean}</span></h4>
 
     
 
@@ -4452,6 +4452,164 @@ The path of the cookie is defaulted to &quot;/&quot;.</p>
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
         <a href="ddm.js.html">ddm.js</a>, <a href="ddm.js.html#line1004">line 1004</a>
+    </li></ul></dd>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+<div class="description">
+    <p>Checks whether a given object is an empty object</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+    <h5>Parameters:</h5>
+    
+
+<table class="params">
+    <thead>
+    <tr>
+        
+        <th>Name</th>
+        
+
+        <th>Type</th>
+
+        
+
+        
+
+        <th class="last">Description</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    
+
+        <tr>
+            
+                <td class="name"><code>obj</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">*</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"><p>The object to test</p></td>
+        </tr>
+
+    
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h5>Returns:</h5>
+
+        
+<div class="param-desc">
+    <p>True or false if the object is in fact an empty object.</p>
+</div>
+
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">Boolean</span>
+
+
+    </dd>
+</dl>
+
+    
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="cloneObject"><span class="type-signature"></span>cloneObject<span class="signature">(obj)</span><span class="type-signature"></span></h4>
+
+    
+
+
+
+
+<dl class="details">
+
+    
+    <dt class="tag-source">Source:</dt>
+    <dd class="tag-source"><ul class="dummy"><li>
+        <a href="ddm.js.html">ddm.js</a>, <a href="ddm.js.html#line1020">line 1020</a>
     </li></ul></dd>
     
 
@@ -4592,7 +4750,7 @@ The path of the cookie is defaulted to &quot;/&quot;.</p>
     
     <dt class="tag-source">Source:</dt>
     <dd class="tag-source"><ul class="dummy"><li>
-        <a href="ddm.js.html">ddm.js</a>, <a href="ddm.js.html#line1418">line 1418</a>
+        <a href="ddm.js.html">ddm.js</a>, <a href="ddm.js.html#line1439">line 1439</a>
     </li></ul></dd>
     
 
@@ -4776,7 +4934,7 @@ The path of the cookie is defaulted to &quot;/&quot;.</p>
 <br class="clear">
 
 <footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.2</a> on Wed May 22 2019 16:50:32 GMT+0200 (W. Europe Daylight Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
+    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 3.6.2</a> on Wed Nov 16 2022 14:04:58 GMT+0100 (Central European Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
 </footer>
 
 <script>prettyPrint();</script>

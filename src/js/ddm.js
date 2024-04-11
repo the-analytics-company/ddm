@@ -1002,6 +1002,22 @@
 	};
 
 	/**
+	 * Checks whether a given object is an empty object
+	 *
+	 * @function
+	 * @name isEmptyObject
+	 * @param  {*} obj - The object to test
+	 * @return {Boolean} True or false if the object is in fact an empty object.
+	 */
+	_d.isEmptyObject = function(obj) {
+		if (!obj || obj == null || typeof obj === 'undefined') return true;
+		if (_d.isObject(obj)) return JSON.stringify(obj) === JSON.stringify({});
+		if (_d.isArray(obj)) return obj.length == 0;
+		if (_d.isString(obj)) return obj.trim() === '';
+		return !_d.isInteger(obj);
+	};
+
+	/**
 	 * Method to clone an object using JSON (de)serialization.
 	 *
 	 * @example
@@ -1408,6 +1424,11 @@
 							storage.removeItem(key);
 							storage.removeItem(storagePrefix + ddKey);
 						}
+					}
+
+					// Remove if deserialization ends up as a string with value 'undefined'
+					if(/dd_p_.*/.test(key) && storage.getItem(key) == 'undefined'){
+						storage.removeItem(key);
 					}
 				}
 			}
