@@ -1,7 +1,7 @@
 {
   "name": "DDM",
   "version": "1.1.0",
-  "description": "A Gulp project with tasks for JavaScript minification, documentation generation, and file watching.",
+  "description": "The DigitalData Manager (DDM) provides an API for centralized access to the DigitalData object. In addition the DDM provides an event mechanism for data changes in the DD as well as general event handling and persistence.",
   "main": "./dist/js/ddm.min.js",
   "scripts": {
     "clean": "gulp clean",
