@@ -1,6 +1,15 @@
 {
   "name": "DDM",
-  "version": "1.0.0",
+  "version": "1.1.0",
+  "description": "A Gulp project with tasks for JavaScript minification, documentation generation, and file watching.",
+  "main": "./dist/js/ddm.min.js",
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp",
+    "docs": "gulp docs",
+    "js": "gulp js",
+    "watch": "gulp watch"
+  },
   "homepage": "https://github.com/the-analytics-company/ddm#readme",
   "license": "MIT",
   "repository": {
@@ -8,14 +17,13 @@
     "url": "https://github.com/the-analytics-company/ddm.git"
   },
   "devDependencies": {
-    "del": "^4.1.1",
-    "docdash": "^1.1.1",
+    "del": "^6.1.1",
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-jsdoc3": "^2.0.0",
+    "gulp-rename": "^2.0.0",
     "gulp-uglify": "^3.0.2",
-    "uglify-save-license": "^0.4.1",
-    "gulp-rename": "^1.4.0"
+    "uglify-save-license": "^0.4.1"
   },
   "resolutions": {
     "natives": "1.1.3"
